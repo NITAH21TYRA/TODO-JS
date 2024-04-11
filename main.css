@@ -1,0 +1,78 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(/smoke-background-texture-beige-abstract-design.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(252, 252, 7);
+    text-decoration: solid;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 8px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+    border-radius: 5px;
+
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #5de209; 
+    border-radius: 5px; /* Rounded corners */
+}
+
+.delete {
+    background-color: #f44336;
+    color: white;
+    padding: 6px 10px;
+    border: none;
+    cursor: pointer;
+    float: right;
+}
+
+.delete:hover {
+    background-color: #da190b;
+}
+
+.edit {
+    background-color: #008CBA;
+    color: white;
+    padding: 6px 10px;
+    border: none;
+    cursor: pointer;
+    float: right;
+    margin-right: 10px;
+}
+
+.edit:hover {
+    background-color: #005F6B;
+}
